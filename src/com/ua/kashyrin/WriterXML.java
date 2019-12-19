@@ -49,11 +49,11 @@ public class WriterXML {
                 name.appendChild(document.createTextNode(String.valueOf(usr.getName())));
                 Users.appendChild(name);
 
-                Element id = document.createElement("ID");
+                Element id = document.createElement("surname");
                 id.appendChild(document.createTextNode(String.valueOf(usr.getSurename())));
                 Users.appendChild(id);
 
-                Element mmi = document.createElement("Age");
+                Element mmi = document.createElement("phone");
                 mmi.appendChild(document.createTextNode(String.valueOf(usr.getPhone())));
                 Users.appendChild(mmi);
 
