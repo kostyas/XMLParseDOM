@@ -1,13 +1,6 @@
-# Object file
-*.o
 
-# Ada Library Information
-*.ali
 
 *.Parse.iml
 
-out/
-
-.out
 
 /out
